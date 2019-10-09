@@ -1,0 +1,12 @@
+<!--pages/video/video.wxml-->
+<video id="myvideo" controls src="{{src}}" enable-danmu danmu-btn vslide-gesture-in-fullscreen></video>
+<view class="danmuarea">
+  <input type="text" placeholder="请输入弹幕内容" bindinput="getDanmu" value="{{danmuValue}}"></input>
+  <button bindtap="sendDanmu">发送弹幕</button>
+</view>
+<view class="videolist">
+  <view class="videobar" wx:for="{{list}}" wx:key="video{{index}}" data-url="{{item.videoUrl}}" bindtap="playVideo">
+    <image src="/images/play.png"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

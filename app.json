@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/video/video",
+    "pages/weather/weather",
+    "pages/index/index"
+    
+  ],
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "获取头像",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/homeactive.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "icons/weather.png",
+        "selectedIconPath": "icons/weatheractive.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "icons/video.png",
+        "selectedIconPath": "icons/videoactive.png"
+      }
+    ]
+  }
+}

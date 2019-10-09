@@ -1,0 +1,55 @@
+/* pages/video/video.wxss */
+page{
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+#myvideo{
+  width: 100%;
+
+}
+.danmuarea{
+  display: flex;
+  flex-direction: row;
+}
+.danmuarea input{
+  border:1rpx solid #987938;
+  height: 60rpx;
+  /* 扩展多余空间 */
+  flex-grow: 1;
+  padding:20rpx;
+}
+.danmuarea button{
+  color:white;
+  background-color: #987938;
+  line-height: 102rpx;
+  height: 102rpx;
+  font-weight: bolder;
+}
+.videolist{
+  width: 100%;
+  min-height: 400rpx;
+}
+.videolist .videobar{
+  width:95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom:1rpx solid #987938;
+  margin:10rpx;
+  align-items: center; 
+  /* justify-content: center;  */
+}
+.videolist .videobar image{
+  width:70rpx;
+  height:70rpx;
+  margin:20rpx;
+  /* align-items: center; 
+  justify-content: center; */
+}
+.videolist .videobar text{
+  font-size: 30rpx;
+  color: #987938;
+  margin: 20rpx;
+  flex-grow: 1;
+  /* align-items: center; 
+  justify-content: center; */
+}

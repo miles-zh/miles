@@ -1,0 +1,26 @@
+/* pages/index/index.wxss */
+.container{
+  /* 高100视窗 */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* 水平方向居中 */
+  align-items: center;
+  /* 垂直方向散步分散布局 */
+  justify-content: space-around;
+}
+.container image{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}
+.container text{
+  font-size: 80rpx;
+  color: #555;
+  font-family: sans-serif;
+}
+.container button{
+  
+  font-size: 40rpx;
+  font-weight: bold;
+}
